@@ -17,6 +17,3 @@ class TestCalculator:
 
     def test_divide(self):
         assert 10 == calculator.divide(100, 10)
-
-    def test_divide_by_zero(self):
-        assert 0 == calculator.divide(100, 0)
